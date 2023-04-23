@@ -1,0 +1,93 @@
+body {
+    text-align: center;
+    font-family: 'Happy Monkey', cursive;
+    background: linear-gradient(#a2d2ff, #EFB0C9);
+    color: #ffffff;
+}
+
+h1, h2, h3, h4, p {
+    text-shadow: 0 0 1px black;
+}
+
+#bff-img {
+    width: 150px;
+    border-radius: 50%;
+    border: 6px solid #EFB0C9;
+    margin-bottom: 10px;
+}
+
+#bday-age {
+    background: #EFB0C9;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin: 5px 0 10px 0;
+}
+
+#bday-date {
+    margin: 0;
+    background: #EFB0C9;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+#header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.gift-section {
+    margin-top: 50px;
+}
+
+.gift-title {
+    margin-bottom: 10px;
+}
+
+.gift-hint {
+    margin-top: 0;
+}
+
+#gift-img-cheers {
+    height: 200px;
+}
+
+.gift-img {
+    margin: 20px auto;
+    max-width: 400px;
+    height: 400px;
+    border: 6px solid white;
+    border-radius: 10px;
+    background-image: url("images/gift-cover.jpg");
+    background-size: cover;
+}
+
+#gift-img-happy:hover {
+    background-image: url("https://ts1.cn.mm.bing.net/th/id/R-C.61c5c110d7e7f36d36b96b8facff2eaa?rik=4DHGyJN0KYUHrw&riu=http%3a%2f%2fwww.lovethispic.com%2fuploaded_images%2f338982-It-s-Friday-Snoopy-Gif.gif&ehk=YXtTYye%2fMo%2fL2y3Lp3HoCuj3HY%2bhTtjO8OXNYHf8uSg%3d&risl=&pid=ImgRaw&r=0");
+}
+
+#gift-img-hot:hover {
+    background-image: url("https://www.icegif.com/wp-content/uploads/icegif-15.gif");
+}
+
+#gift-img-genius:hover {
+    background-image: url("https://ts1.cn.mm.bing.net/th/id/R-C.70c141ffbfa1a913c5a30204d1ac9f15?rik=TiDutMbIYXRknw&riu=http%3a%2f%2fwww.desicomments.com%2fdc3%2f05%2f245118%2f245118.gif&ehk=EVH2ryJ2WqGE4Q83BAsJZ8ib4Se46sspJ68Bh62U7YQ%3d&risl=&pid=ImgRaw&r=0");
+}
+
+#gift-img-badass:hover {
+    background-image: url("https://ts1.cn.mm.bing.net/th/id/R-C.02660455aade168dacc50aa9472a5898?rik=g4l4ESKcpZHdgQ&riu=http%3a%2f%2fbestanimations.com%2fCartoons%2fWarnerBros%2fTaz%2ffunny-taz-animated-gif-4.gif&ehk=Mc8AGdN5MkYMFyPEjmekkJ8CGjbUUH%2f8CIHdEjacvLw%3d&risl=&pid=ImgRaw&r=0");
+}
+
+#gift-img-cheers:hover {
+    background-image: url("https://piximus.net/media/20561/funny-cat-gifs-19.gif");
+}
+
+#footer {
+    font-style: italic;
+    width: 400px;
+    margin: 40px auto 20px;
+}
+
+a {
+    color: white;
+}
